@@ -51,7 +51,7 @@ dotnet watch
 ```
 
 If all goes well, the terminal should open your Blazor-app:
-![Local blazor project](Schermafbeelding 2024-09-26 om 21.09.14-1.png)
+![Local blazor project](/assets/2024-10-03/Schermafbeelding%202024-09-26%20om%2021.09.14-1.png)
 As you can see, I edited the text of the main page a little bit.
 
 ### Upload your project to Synology Nas
@@ -66,7 +66,7 @@ Next step is to copy your entire project to a location on your Synology NAS.
 * Unpack your zip-file on the NAS
 
 Make sure you have a setup like this:
-![Project on NAS](<Schermafbeelding 2024-09-26 om 21.53.27-1.png>)
+![Project on NAS](/assets/2024-10-03/Schermafbeelding%202024-09-26%20om%2021.53.27-1.png)
 
 ### Config Container Manager
 Container manager is an application for building and hosting virtual containers. 
@@ -128,14 +128,14 @@ ENTRYPOINT ["dotnet", "BlazorDemo.dll"]
 ```
 Save both files on your pc and upload them to your NAS.
 Put the files next to the root folder of the Blazor project, like this:
-![alt text](<Schermafbeelding 2024-09-26 om 22.17.22-1.png>)
+![alt text](/assets/2024-10-03/Schermafbeelding%202024-09-26%20om%2022.17.22-1.png)
 Note that everything of the application is inside the folder BlazorDemo and both the compose.yaml & Dockerfile are next to the root folder. I prefer to keep those separate.
 
 #### Container Manager
 Time to open de Container Manager application on your Synology Nas.
 
 1. Go to Projects in Container Manager
-![Start project](<Schermafbeelding 2024-09-29 om 20.29.47-1.png>)
+![Start project](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.29.47-1.png)
 2. Select 'Create'
 3. In General Settings, choose 'Set Path'
 ![Setting path](<Schermafbeelding 2024-09-29 om 20.30.06-1.png>)
