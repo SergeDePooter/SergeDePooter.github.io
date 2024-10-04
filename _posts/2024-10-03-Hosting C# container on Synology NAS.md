@@ -3,7 +3,7 @@ title: C# docker on Synology NAS
 date: 2024-10-03 21:30:00
 categories: [C#]
 tags: [c#, synology, nas, docker]
-media_subpath: /
+media_subpath: /assets/2024-10-03/
 ---
 # C# docker on Synology NAS
 
@@ -51,7 +51,7 @@ dotnet watch
 ```
 
 If all goes well, the terminal should open your Blazor-app:
-![Local blazor project](/assets/Schermafbeelding 2024-09-26 om 21.09.14-1.png)
+![Local blazor project](Schermafbeelding 2024-09-26 om 21.09.14-1.png)
 As you can see, I edited the text of the main page a little bit.
 
 ### Upload your project to Synology Nas
