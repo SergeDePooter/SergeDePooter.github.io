@@ -51,7 +51,7 @@ dotnet watch
 ```
 
 If all goes well, the terminal should open your Blazor-app:
-![Local blazor project](<Schermafbeelding 2024-09-26 om 21.09.14-1.png>)
+![Local blazor project](/assets/Schermafbeelding 2024-09-26 om 21.09.14-1.png)
 As you can see, I edited the text of the main page a little bit.
 
 ### Upload your project to Synology Nas
