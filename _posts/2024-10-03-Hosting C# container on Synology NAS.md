@@ -3,7 +3,6 @@ title: C# docker on Synology NAS
 date: 2024-10-03 21:30:00
 categories: [C#]
 tags: [c#, synology, nas, docker]
-media_subpath: /assets/2024-10-03/
 ---
 # C# docker on Synology NAS
 
