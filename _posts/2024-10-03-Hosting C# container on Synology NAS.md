@@ -137,35 +137,35 @@ Time to open de Container Manager application on your Synology Nas.
 ![Start project](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.29.47-1.png)
 2. Select 'Create'
 3. In General Settings, choose 'Set Path'
-![Setting path](<Schermafbeelding 2024-09-29 om 20.30.06-1.png>)
+![Setting path](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.30.06-1.png)
 4. Select the root folder of the project
-![Selecting root folder](<Schermafbeelding 2024-09-29 om 20.31.11-1.png>)
+![Selecting root folder](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.31.11-1.png)
 Container Manager will recognize that there is a compose.yaml inside the folder. Choose the use the existing file instead of (re-)creating a new one.
 5. Give the project a name
-![Project name](<Schermafbeelding 2024-09-29 om 20.31.51-1.png>)
+![Project name](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.31.51-1.png)
 6. Container Manager will ask to setup an entry in the Web Station to expose the container to a port. We will skip this for now and go to 'Next'.
-![Create entry in web station](<Schermafbeelding 2024-09-29 om 20.32.13-1.png>)
+![Create entry in web station](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.32.13-1.png)
 7. Create the project!
-![Create project](<Schermafbeelding 2024-09-29 om 20.32.25-1.png>)
+![Create project](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.32.25-1.png)
 8. You will get another screen where the process will continue with all the steps in de Dockerfile
-![Building the container](<Schermafbeelding 2024-09-29 om 20.32.38-1.png>)
+![Building the container](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.32.38-1.png)
 9. If all goes well, the project will succeed its build and show up in your Container Manager.
-![Succesfull build](<Schermafbeelding 2024-09-29 om 20.45.37-1.png>)
+![Succesfull build](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.45.37-1.png)
 
 #### Setting up network
 In step 6 of the previous part, we skipped creating a port exposure in Web Station. The reason for this is fairly easy: I never got it to work in that step of the process. Luckily, and after a lot of searching and trying, there is another way.
 
 1. Stop your project.
-![Stop project](<Schermafbeelding 2024-09-29 om 20.53.27-1.png>)
+![Stop project](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.53.27-1.png)
 2. Go to the details of your project and select 'Blazordemo-web-1'
-![Project details - 1](<Schermafbeelding 2024-09-29 om 20.54.00-1.png>)
+![Project details - 1](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.54.00-1.png)
 3. Go to Settings
-![Project details - 2](<Schermafbeelding 2024-09-29 om 20.54.47-1.png>)
+![Project details - 2](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.54.47-1.png)
 4. Here is the part where it gets a bit confusing. We asked Container Manager to skip the creation during the creation of a new project. If we here select 'Set up web portal via Webstation' and at port 86, it will automatically add a record in section 'Port Settings'. Remove the allready existing line with 2-times port 86.Check image below.
-![Adding webstation port](<Schermafbeelding 2024-09-29 om 20.55.05-1.png>)
+![Adding webstation port](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.55.05-1.png)
 5. Save the settings. After saving, Container Manager will ask you to set up the connection in Web Station.
-![Save portal settings](<Schermafbeelding 2024-09-29 om 20.55.26-1.png>)
+![Save portal settings](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.55.26-1.png)
 6. Configure the settings in Web Station like following.
-![Port setting](<Schermafbeelding 2024-09-29 om 20.55.51-1.png>)
+![Port setting](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2020.55.51-1.png)
 7. Start your project again in Container Manager. If all goes well, you can navigate to your project on a local port.
-![Running project](<Schermafbeelding 2024-09-29 om 21.16.55-1.png>)
+![Running project](/assets/2024-10-03/Schermafbeelding%202024-09-29%20om%2021.16.55-1.png)
