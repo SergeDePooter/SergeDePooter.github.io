@@ -102,7 +102,7 @@ services:
 Most important part in this file is the setup of the ports because this will be the ports that Synology Web Station will use to open a port on the NAS. More on this later.
 
 Dockerfile
-```Docker
+```dockerfile
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 86
